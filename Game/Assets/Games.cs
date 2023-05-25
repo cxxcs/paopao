@@ -128,7 +128,7 @@ public class Games : MonoBehaviour
         }
         _gameGroup = new GameObject("Game");
         _gameGroup.transform.SetParent(this.transform);
-        _gameGroup.transform.SetSiblingIndex(2);
+        _gameGroup.transform.SetSiblingIndex(1);
         _gameGroup.transform.localPosition = Vector3.zero;
         _gameGroup.transform.localScale = Vector3.one;
 
