@@ -6,13 +6,12 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-[Serializable]
+[System.Serializable]
 public class Grid : MonoBehaviour
 {
     public TextMeshProUGUI PosText;
     public TextMeshProUGUI NegText;
     public Image SelectBg;
-    [NonSerialized]
     public Color NoramlColor = new Color(53 / 255f, 53 / 255f, 53 / 255f, 1);
     public Color DeleteColor = new Color(53 / 255f, 53 / 255f, 53 / 255f, 0.1f);
     [ContextMenu("HideChild")]
@@ -78,9 +77,4 @@ public class Grid : MonoBehaviour
         PosY = y;
         PosText.text = string.Format("{0},{1}", PosX, PosY);
     }
-
-    public static Grid StartGrid;
-    public static Grid EndGrid;
-    public static List<Grid> CrossGrids = new List<Grid>();
-
 }

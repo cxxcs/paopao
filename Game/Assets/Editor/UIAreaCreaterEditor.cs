@@ -1,7 +1,9 @@
 
 using NUnit.Framework;
+using PlasticPipe.PlasticProtocol.Client;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using Unity.Burst.Intrinsics;
 using Unity.VisualScripting;
 using UnityEditor;
@@ -225,7 +227,21 @@ public class UIAreaCreaterEditor : Editor
         if (GUILayout.Button("±£´æ¹Ø¿¨"))
         {
             _creater.Save(LevelID);
-        }
 
+            var jsonList = new JsonFileList();
+            var path = Application.dataPath + "/StreamingAssets/Levels";
+            DirectoryInfo dir = new DirectoryInfo(path);
+            var files = dir.GetFiles("*.json");
+            for (int i = 0; i < files.Length; i++) {
+                jsonList.Files.Add(files[i].Name.Replace(".json", ""));
+            }
+            var json = JsonUtility.ToJson(jsonList);
+            System.IO.File.WriteAllText("Assets/StreamingAssets/s.json", json);
+        }
     }
+}
+public class JsonFileList {
+
+    public List<string> Files = new List<string>(); 
+
 }

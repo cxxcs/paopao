@@ -1,19 +1,24 @@
 
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using Unity.VisualScripting;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 [ExecuteInEditMode]
+
 public class UIAreaCreater : MonoBehaviour
 {
-
+#if UNITY_EDITOR
     public Vector2 SingeSize = new Vector2(50, 50);
     public Vector2 Complexity = new Vector2(10,10);
     public Transform Plane;
 
     public Dictionary<KeyValuePair<int,int>, Grid> Maps = new Dictionary<KeyValuePair<int, int>, Grid>();
 
-    private bool _mouseUp;
     private void Update()
     {
         //if (Input.GetMouseButtonDown(0)) {
@@ -61,14 +66,39 @@ public class UIAreaCreater : MonoBehaviour
         }
 
     }
+  
 
     public void Save(int id) 
     {
         var game = GameObject.Find("Game");
         if (game != null) {
-            PrefabUtility.SaveAsPrefabAssetAndConnect(game, "Assets/Resources/Levels/" + id + ".prefab", InteractionMode.AutomatedAction);
+            PrefabUtility.SaveAsPrefabAssetAndConnect(game, "Assets/LevelPrefabs/" + id + ".prefab", InteractionMode.AutomatedAction);
         }
+        var jsonData = new JsonData();
 
+        jsonData.Canvas.PosX = (int)game.transform.localPosition.x;
+        jsonData.Canvas.PosY = (int)game.transform.localPosition.y;
+
+        for (int i = 0; i < game.transform.childCount; i++)
+        {
+            var grid = game.transform.GetChild(i).gameObject.GetComponent<Grid>();
+            var size = grid.gameObject.GetComponent<RectTransform>().sizeDelta;
+            jsonData.Grids.Add(new GridData() {
+                PosX = grid.PosX, 
+                PosY = grid.PosY,
+                DisplayX = (int)grid.gameObject.transform.localPosition.x,
+                DisplayY = (int)grid.gameObject.transform.localPosition.y,
+                SizeX = (int)size.x,
+                SizeY = (int)size.y,
+                RelevancyPosX = grid.RelevancyPosX,
+                RelevancyPosY = grid.RelevancyPosY, 
+                Enbale = grid.Enbale,
+                Select = grid.Select,
+                Neg = grid.Neg,
+            });
+        }
+        var json = JsonUtility.ToJson(jsonData);
+        System.IO.File.WriteAllText("Assets/StreamingAssets/Levels/" + id + ".json", json);
     }
     public void Load(int id) 
     {
@@ -79,14 +109,16 @@ public class UIAreaCreater : MonoBehaviour
         var game = GameObject.Find("Game");
         if (game != null)
         {
-            Object.DestroyImmediate(game);
+
+            UnityEngine.Object.DestroyImmediate(game);
         }
-        var res = Resources.Load<GameObject>("Levels/" + id);
+        var res = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/LevelPrefabs/" + id + ".prefab");
         if (res != null)
         {
             game = GameObject.Instantiate(res);
             game.name = "Game";
             game.transform.SetParent(this.transform);
+
             game.transform.localPosition = Vector3.zero;
             game.transform.localScale = Vector3.one;
             game.transform.localPosition = new Vector2(-(SingeSize.x * Complexity.x / 2), -(SingeSize.y * Complexity.y / 2));
@@ -113,7 +145,7 @@ public class UIAreaCreater : MonoBehaviour
         var game = GameObject.Find("Game");
         if (game != null)
         {
-            Object.DestroyImmediate(game);
+            UnityEngine.Object.DestroyImmediate(game);
         }
         game = new GameObject("Game");
         game.transform.SetParent(this.transform);
@@ -141,4 +173,5 @@ public class UIAreaCreater : MonoBehaviour
         }
         game.AddComponent<GameInput>();
     }
+#endif
 }

@@ -352,6 +352,7 @@ MonoBehaviour:
   PosText: {fileID: 1019617912}
   NegText: {fileID: 2038507325}
   SelectBg: {fileID: 12242017}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 5
   PosY: 5
@@ -453,6 +454,7 @@ MonoBehaviour:
   PosText: {fileID: 1956882171}
   NegText: {fileID: 1421346489}
   SelectBg: {fileID: 31809469}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 2
   PosY: 9
@@ -554,6 +556,7 @@ MonoBehaviour:
   PosText: {fileID: 2086663470}
   NegText: {fileID: 779527026}
   SelectBg: {fileID: 50165077}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 0
   PosY: 2
@@ -1060,6 +1063,7 @@ MonoBehaviour:
   PosText: {fileID: 11031557}
   NegText: {fileID: 700284848}
   SelectBg: {fileID: 109888207}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 2
   PosY: 5
@@ -1296,6 +1300,7 @@ MonoBehaviour:
   PosText: {fileID: 53927148}
   NegText: {fileID: 1236323584}
   SelectBg: {fileID: 116971956}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 4
   PosY: 5
@@ -1397,6 +1402,7 @@ MonoBehaviour:
   PosText: {fileID: 1221258675}
   NegText: {fileID: 197261308}
   SelectBg: {fileID: 125913847}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 5
   PosY: 3
@@ -1768,6 +1774,7 @@ MonoBehaviour:
   PosText: {fileID: 416869010}
   NegText: {fileID: 582043360}
   SelectBg: {fileID: 139473734}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 5
   PosY: 0
@@ -1869,6 +1876,7 @@ MonoBehaviour:
   PosText: {fileID: 1931015086}
   NegText: {fileID: 734971770}
   SelectBg: {fileID: 150187819}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 5
   PosY: 7
@@ -2416,141 +2424,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197261306}
   m_CullTransparentMesh: 1
---- !u!1 &230341905
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 230341906}
-  - component: {fileID: 230341908}
-  - component: {fileID: 230341907}
-  m_Layer: 0
-  m_Name: Pos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &230341906
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 230341905}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 300335189}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
-  m_Pivot: {x: 0.5, y: 0}
---- !u!114 &230341907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 230341905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 1,1
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 469762047
-  m_fontColor: {r: 1, g: 1, b: 1, a: 0.105882354}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 4
-  m_VerticalAlignment: 1024
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &230341908
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 230341905}
-  m_CullTransparentMesh: 1
 --- !u!1 &231847636
 GameObject:
   m_ObjectHideFlags: 0
@@ -2645,6 +2518,7 @@ MonoBehaviour:
   PosText: {fileID: 1560009241}
   NegText: {fileID: 395039499}
   SelectBg: {fileID: 231847638}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 1
   PosY: 8
@@ -3301,6 +3175,7 @@ MonoBehaviour:
   PosText: {fileID: 959383334}
   NegText: {fileID: 1697720425}
   SelectBg: {fileID: 296193584}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 0
   PosY: 0
@@ -3308,107 +3183,11 @@ MonoBehaviour:
   RelevancyPosX: 0
   RelevancyPosY: 0
   Enbale: 0
---- !u!1 &300335186
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 300335189}
-  - component: {fileID: 300335188}
-  - component: {fileID: 300335191}
-  - component: {fileID: 300335190}
-  m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &300335188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300335186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7aa2aeaafbc6514e91676ebeb569874, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PosText: {fileID: 230341907}
-  NegText: {fileID: 1955029398}
-  SelectBg: {fileID: 300335190}
-  DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
-  PosX: 0
-  PosY: 0
-  Select: 0
-  RelevancyPosX: 0
-  RelevancyPosY: 0
-  Enbale: 1
---- !u!224 &300335189
+--- !u!224 &300335189 stripped
 RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+  m_PrefabInstance: {fileID: 1875657741556221248}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300335186}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1955029397}
-  - {fileID: 230341906}
-  m_Father: {fileID: 261776272}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &300335190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300335186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &300335191
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300335186}
-  m_CullTransparentMesh: 1
 --- !u!1 &308331497
 GameObject:
   m_ObjectHideFlags: 1
@@ -3638,6 +3417,7 @@ MonoBehaviour:
   PosText: {fileID: 1885126626}
   NegText: {fileID: 757956348}
   SelectBg: {fileID: 311039399}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 2
   PosY: 1
@@ -4414,6 +4194,7 @@ MonoBehaviour:
   PosText: {fileID: 1237125729}
   NegText: {fileID: 1544228665}
   SelectBg: {fileID: 437739748}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 2
   PosY: 0
@@ -4515,6 +4296,7 @@ MonoBehaviour:
   PosText: {fileID: 447632337}
   NegText: {fileID: 1491338455}
   SelectBg: {fileID: 442912874}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 2
   PosY: 4
@@ -4751,6 +4533,7 @@ MonoBehaviour:
   PosText: {fileID: 162801879}
   NegText: {fileID: 1269130300}
   SelectBg: {fileID: 454122313}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 3
   PosY: 8
@@ -5527,6 +5310,7 @@ MonoBehaviour:
   PosText: {fileID: 1674838939}
   NegText: {fileID: 1854687241}
   SelectBg: {fileID: 507777556}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 5
   PosY: 4
@@ -6050,6 +5834,7 @@ MonoBehaviour:
   PosText: {fileID: 837755915}
   NegText: {fileID: 155722476}
   SelectBg: {fileID: 553609413}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 3
   PosY: 1
@@ -6286,6 +6071,7 @@ MonoBehaviour:
   PosText: {fileID: 1641490211}
   NegText: {fileID: 1067054298}
   SelectBg: {fileID: 569117236}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 4
   PosY: 8
@@ -6522,6 +6308,7 @@ MonoBehaviour:
   PosText: {fileID: 971705495}
   NegText: {fileID: 651413886}
   SelectBg: {fileID: 581534845}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 5
   PosY: 2
@@ -7433,6 +7220,7 @@ MonoBehaviour:
   PosText: {fileID: 1854843964}
   NegText: {fileID: 460136007}
   SelectBg: {fileID: 637601983}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 1
   PosY: 6
@@ -8074,6 +7862,7 @@ MonoBehaviour:
   PosText: {fileID: 1077983303}
   NegText: {fileID: 1953609332}
   SelectBg: {fileID: 702106245}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 5
   PosY: 6
@@ -8715,6 +8504,7 @@ MonoBehaviour:
   PosText: {fileID: 1416806477}
   NegText: {fileID: 1628866469}
   SelectBg: {fileID: 772694085}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 4
   PosY: 4
@@ -8951,6 +8741,7 @@ MonoBehaviour:
   PosText: {fileID: 815863747}
   NegText: {fileID: 787541447}
   SelectBg: {fileID: 786704549}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 3
   PosY: 2
@@ -9187,6 +8978,7 @@ MonoBehaviour:
   PosText: {fileID: 793898321}
   NegText: {fileID: 1742101442}
   SelectBg: {fileID: 792816292}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 3
   PosY: 0
@@ -9963,6 +9755,7 @@ MonoBehaviour:
   PosText: {fileID: 574713777}
   NegText: {fileID: 1110292084}
   SelectBg: {fileID: 851828590}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 2
   PosY: 6
@@ -10064,6 +9857,7 @@ MonoBehaviour:
   PosText: {fileID: 850601278}
   NegText: {fileID: 662089083}
   SelectBg: {fileID: 865951223}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 4
   PosY: 1
@@ -10300,6 +10094,7 @@ MonoBehaviour:
   PosText: {fileID: 2104540939}
   NegText: {fileID: 1437258484}
   SelectBg: {fileID: 902756555}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 3
   PosY: 7
@@ -10806,6 +10601,7 @@ MonoBehaviour:
   PosText: {fileID: 267392415}
   NegText: {fileID: 608263068}
   SelectBg: {fileID: 919484176}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 4
   PosY: 0
@@ -11312,6 +11108,7 @@ MonoBehaviour:
   PosText: {fileID: 127753109}
   NegText: {fileID: 1590182745}
   SelectBg: {fileID: 995380246}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 0
   PosY: 7
@@ -11818,6 +11615,7 @@ MonoBehaviour:
   PosText: {fileID: 1026550349}
   NegText: {fileID: 890626156}
   SelectBg: {fileID: 1039854207}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 0
   PosY: 9
@@ -12459,6 +12257,7 @@ MonoBehaviour:
   PosText: {fileID: 1228262992}
   NegText: {fileID: 1038921824}
   SelectBg: {fileID: 1084436934}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 0
   PosY: 5
@@ -12830,6 +12629,7 @@ MonoBehaviour:
   PosText: {fileID: 1856782906}
   NegText: {fileID: 907710181}
   SelectBg: {fileID: 1180009422}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 4
   PosY: 7
@@ -14520,6 +14320,7 @@ MonoBehaviour:
   PosText: {fileID: 1877325529}
   NegText: {fileID: 1622547021}
   SelectBg: {fileID: 1317339214}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 3
   PosY: 9
@@ -14621,6 +14422,7 @@ MonoBehaviour:
   PosText: {fileID: 1217567262}
   NegText: {fileID: 1273487545}
   SelectBg: {fileID: 1343334298}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 0
   PosY: 1
@@ -14722,6 +14524,7 @@ MonoBehaviour:
   PosText: {fileID: 561691374}
   NegText: {fileID: 1280715925}
   SelectBg: {fileID: 1343757495}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 0
   PosY: 6
@@ -15228,6 +15031,7 @@ MonoBehaviour:
   PosText: {fileID: 770616325}
   NegText: {fileID: 105163613}
   SelectBg: {fileID: 1423152417}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 5
   PosY: 8
@@ -15464,6 +15268,7 @@ MonoBehaviour:
   PosText: {fileID: 908888823}
   NegText: {fileID: 365378587}
   SelectBg: {fileID: 1450412748}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 0
   PosY: 3
@@ -15565,6 +15370,7 @@ MonoBehaviour:
   PosText: {fileID: 634728801}
   NegText: {fileID: 1277742964}
   SelectBg: {fileID: 1479669248}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 2
   PosY: 8
@@ -16476,6 +16282,7 @@ MonoBehaviour:
   PosText: {fileID: 1306218437}
   NegText: {fileID: 1910258631}
   SelectBg: {fileID: 1586686828}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 1
   PosY: 1
@@ -16712,6 +16519,7 @@ MonoBehaviour:
   PosText: {fileID: 613701206}
   NegText: {fileID: 1550073146}
   SelectBg: {fileID: 1608145158}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 3
   PosY: 6
@@ -17488,6 +17296,7 @@ MonoBehaviour:
   PosText: {fileID: 2085101181}
   NegText: {fileID: 1826125629}
   SelectBg: {fileID: 1695094566}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 1
   PosY: 2
@@ -17724,6 +17533,7 @@ MonoBehaviour:
   PosText: {fileID: 261241781}
   NegText: {fileID: 498312446}
   SelectBg: {fileID: 1698645357}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 3
   PosY: 3
@@ -17825,6 +17635,7 @@ MonoBehaviour:
   PosText: {fileID: 496036488}
   NegText: {fileID: 464533912}
   SelectBg: {fileID: 1723877927}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 3
   PosY: 5
@@ -17926,6 +17737,7 @@ MonoBehaviour:
   PosText: {fileID: 418451009}
   NegText: {fileID: 78753059}
   SelectBg: {fileID: 1737096826}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 1
   PosY: 3
@@ -18162,6 +17974,7 @@ MonoBehaviour:
   PosText: {fileID: 535314206}
   NegText: {fileID: 1077664285}
   SelectBg: {fileID: 1746199414}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 4
   PosY: 9
@@ -18263,6 +18076,7 @@ MonoBehaviour:
   PosText: {fileID: 128560304}
   NegText: {fileID: 186160099}
   SelectBg: {fileID: 1771530745}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 4
   PosY: 6
@@ -18364,6 +18178,7 @@ MonoBehaviour:
   PosText: {fileID: 2115679080}
   NegText: {fileID: 551437177}
   SelectBg: {fileID: 1772734635}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 5
   PosY: 9
@@ -18465,6 +18280,7 @@ MonoBehaviour:
   PosText: {fileID: 1110696932}
   NegText: {fileID: 1529644702}
   SelectBg: {fileID: 1793466716}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 2
   PosY: 2
@@ -18566,6 +18382,7 @@ MonoBehaviour:
   PosText: {fileID: 2048680773}
   NegText: {fileID: 314861542}
   SelectBg: {fileID: 1795034055}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 2
   PosY: 3
@@ -18802,6 +18619,7 @@ MonoBehaviour:
   PosText: {fileID: 1801403778}
   NegText: {fileID: 1895902905}
   SelectBg: {fileID: 1810351498}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 3
   PosY: 4
@@ -19038,6 +18856,7 @@ MonoBehaviour:
   PosText: {fileID: 904764469}
   NegText: {fileID: 2001884537}
   SelectBg: {fileID: 1834937673}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 0
   PosY: 8
@@ -19139,6 +18958,7 @@ MonoBehaviour:
   PosText: {fileID: 622465417}
   NegText: {fileID: 666061907}
   SelectBg: {fileID: 1852424247}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 1
   PosY: 7
@@ -19780,6 +19600,7 @@ MonoBehaviour:
   PosText: {fileID: 113843234}
   NegText: {fileID: 490573761}
   SelectBg: {fileID: 1859200365}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 1
   PosY: 5
@@ -19881,6 +19702,7 @@ MonoBehaviour:
   PosText: {fileID: 1355706579}
   NegText: {fileID: 929993530}
   SelectBg: {fileID: 1868086221}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 0
   PosY: 4
@@ -20387,6 +20209,7 @@ MonoBehaviour:
   PosText: {fileID: 610674399}
   NegText: {fileID: 308331499}
   SelectBg: {fileID: 1898557206}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 4
   PosY: 2
@@ -21069,141 +20892,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953609330}
   m_CullTransparentMesh: 1
---- !u!1 &1955029396
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1955029397}
-  - component: {fileID: 1955029399}
-  - component: {fileID: 1955029398}
-  m_Layer: 0
-  m_Name: Neg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1955029397
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955029396}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 300335189}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1955029398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955029396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1955029399
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955029396}
-  m_CullTransparentMesh: 1
 --- !u!1 &1956882169
 GameObject:
   m_ObjectHideFlags: 1
@@ -21433,6 +21121,7 @@ MonoBehaviour:
   PosText: {fileID: 1938782125}
   NegText: {fileID: 1690143568}
   SelectBg: {fileID: 1957660177}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 1
   PosY: 0
@@ -21534,6 +21223,7 @@ MonoBehaviour:
   PosText: {fileID: 1929540038}
   NegText: {fileID: 2144467252}
   SelectBg: {fileID: 1971911399}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 2
   PosY: 7
@@ -21635,6 +21325,7 @@ MonoBehaviour:
   PosText: {fileID: 804430907}
   NegText: {fileID: 1310493432}
   SelectBg: {fileID: 1992045154}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 5
   PosY: 1
@@ -22006,6 +21697,7 @@ MonoBehaviour:
   PosText: {fileID: 1853557115}
   NegText: {fileID: 743046247}
   SelectBg: {fileID: 2042060242}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 4
   PosY: 3
@@ -22647,6 +22339,7 @@ MonoBehaviour:
   PosText: {fileID: 1483897146}
   NegText: {fileID: 2042392477}
   SelectBg: {fileID: 2102043950}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 1
   PosY: 9
@@ -23153,6 +22846,7 @@ MonoBehaviour:
   PosText: {fileID: 1077644526}
   NegText: {fileID: 241017049}
   SelectBg: {fileID: 2146207446}
+  NoramlColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   DeleteColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.1}
   PosX: 1
   PosY: 4
@@ -23160,3 +22854,100 @@ MonoBehaviour:
   RelevancyPosX: 0
   RelevancyPosY: 0
   Enbale: 0
+--- !u!1001 &1875657741556221248
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 261776272}
+    m_Modifications:
+    - target: {fileID: 1875657741264831762, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_Name
+      value: Grid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875657741264831765, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcacee7087a9e9e49afe3709a38ad123, type: 3}
