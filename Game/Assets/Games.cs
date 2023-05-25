@@ -18,7 +18,20 @@ public class Games : MonoBehaviour
         if (LevelParent.childCount > 0) {
             Object.Destroy(LevelParent.GetChild(0).gameObject);
         }
-        GameObject.Instantiate(res, LevelParent);
+        var game = GameObject.Instantiate(res, LevelParent);
+        for (int i = 0; i < game.transform.childCount; i++)
+        {
+            var grid = game.transform.GetChild(i).gameObject.GetComponent<Grid>();
+            if (grid != null)
+            {
+                if (grid.Enbale == false) {
+                    grid.gameObject.SetActive(false);
+    
+                }
+                grid.ClearSelect();
+            }
+        }
+
         Panel.gameObject.SetActive(false);
     }
     public Transform LevelParent;

@@ -14,7 +14,7 @@ public class Grid : MonoBehaviour
     public Image SelectBg;
     [NonSerialized]
     public Color NoramlColor = new Color(53 / 255f, 53 / 255f, 53 / 255f, 1);
-
+    public Color DeleteColor = new Color(53 / 255f, 53 / 255f, 53 / 255f, 0.1f);
     [ContextMenu("HideChild")]
     public void HideChild()
     {
@@ -60,6 +60,18 @@ public class Grid : MonoBehaviour
         SelectBg.color = NoramlColor;
         RelevancyPosX = 0;
         RelevancyPosY = 0;
+    }
+    public bool Enbale = true;
+    public void SetEnable(bool isOn)
+    {
+        Enbale = isOn;
+        if (isOn)
+        {
+            ClearSelect();
+        }
+        else {
+            SelectBg.color = DeleteColor;
+        }
     }
     public void SetPos(int x, int y) {
         PosX = x;

@@ -64,9 +64,6 @@ public class UIAreaCreater : MonoBehaviour
 
     public void Save(int id) 
     {
-        foreach (var grid in Maps.Values) {
-            grid.ClearSelect();
-        };
         var game = GameObject.Find("Game");
         if (game != null) {
             PrefabUtility.SaveAsPrefabAssetAndConnect(game, "Assets/Resources/Levels/" + id + ".prefab", InteractionMode.AutomatedAction);
@@ -96,6 +93,7 @@ public class UIAreaCreater : MonoBehaviour
             for (int i = 0; i < game.transform.childCount; i++) {
                 var grid = game.transform.GetChild(i).gameObject.GetComponent<Grid>();
                 if (grid) {
+                    grid.HideChild();
                     Maps.Add(new KeyValuePair<int, int>(grid.PosX, grid.PosY), grid);
                 }
             }
